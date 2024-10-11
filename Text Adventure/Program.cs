@@ -127,7 +127,9 @@ namespace Text_Adventure
                             Thread.Sleep(3000);
                         }
 
-
+                        input = Console.ReadLine();
+                        if (input == "B")
+                        { }
 
                     }
 
