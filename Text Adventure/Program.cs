@@ -129,7 +129,13 @@ namespace Text_Adventure
 
                         input = Console.ReadLine();
                         if (input == "B")
-                        { }
+                        {
+                            Console.WriteLine("You decide to take inspiraiton from the monkeys and climb it");
+                            Thread.Sleep(3000);
+                            Console.WriteLine("You climb until you get to the top and grab the bananas");
+                            Thread.Sleep(3000);
+                            Console.WriteLine("You carefully climb down and enjoy the bananas");
+                        }
 
                     }
 
@@ -161,6 +167,9 @@ namespace Text_Adventure
                             Thread.Sleep(3000);
                             Console.WriteLine("You decide after eating the fish you should sleep");
                             Thread.Sleep(3000);
+                            Console.WriteLine("You wake up the next day and realize you are back in your bedroom");
+                            Thread.Sleep(3000);
+                            Console.WriteLine("Everything from today was just a dream");
                         }
 
                         input = Console.ReadLine();
@@ -218,6 +227,16 @@ namespace Text_Adventure
                             
                             }
 
+                            input = Console.ReadLine();
+                            if (input == "B")
+                            {
+                                Console.WriteLine("You decide to make a something to help ships notice you");
+                                Thread.Sleep(3000);
+                                Console.WriteLine("You build out something that says 'SOS'");
+                                Thread.Sleep(3000);
+                                Console.WriteLine("Not too long later to your suprise, you are saved");
+                                Thread.Sleep(3000);
+                            }
 
 
 
@@ -227,11 +246,11 @@ namespace Text_Adventure
 
                     }
 
+                    
 
                 }
 
-                    
-
+              
 
 
 
