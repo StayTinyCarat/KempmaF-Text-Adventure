@@ -19,6 +19,8 @@ namespace Text_Adventure
             Console.WriteLine("You're stranded on an island with limited resources");
             Thread.Sleep(3000);
             Console.WriteLine("Can you survive long enough until help arrives?");
+            Thread.Sleep(3000);
+            Console.WriteLine("Type 'Start' to play");
 
             string input = Console.ReadLine();
             if (input == "start")
